@@ -15,7 +15,41 @@
     gap: 20px;
 }
 
-#reaction_time_tester_page_start_screen_instructions{
+#reaction_time_tester_page_start_screen_color_picker_red{
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+#reaction_time_tester_page_start_screen_color_picker_green{
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+#reaction_time_tester_page_start_screen_color_picker_blue{
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+#reaction_time_tester_page_start_screen_min_max_delay{
+    user-select: none;
+}
+
+#reaction_time_tester_page_start_screen_decoy_gamemode_container{
     user-select: none;
     font-size: 30px;
 }

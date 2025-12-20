@@ -10,10 +10,33 @@
         </a>
 
         <div id="reaction_time_tester_page_start_screen">
-            <p id="reaction_time_tester_page_start_screen_instructions">Color Picker #1: Waiting Color<br>Color Picker #2: Clicking Color<br>Color Picker #3: Result / Misclick Screen</p>
-            <input type="color" id="color_red" value="#FF0000">
-            <input type="color" id="color_green" value="#1AFF1A">
-            <input type="color" id="color_blue" value="#0096FF">
+            <div id="reaction_time_tester_page_start_screen_color_picker_red">
+                <label for="color_red">Waiting Color: </label>
+                <input type="color" id="color_red" value="#FF0000">
+            </div>
+
+            <div id="reaction_time_tester_page_start_screen_min_max_delay">
+                <label for="min_delay">Min delay in seconds: </label>
+                <input type="number" id="min_delay" value="2" min="0.1" max="10" step="0.1"><br><br>
+                <label for="max_delay">Max delay in seconds: </label>
+                <input type="number"id="max_delay" value="4" min="0.5" max="20" step="0.1">
+            </div>
+
+            <div id="reaction_time_tester_page_start_screen_color_picker_green">
+                <label for="color_green">Clicking Color: </label>
+                <input type="color" id="color_green" value="#1AFF1A">
+            </div>
+
+            <div id="reaction_time_tester_page_start_screen_color_picker_blue">
+                <label for="color_blue">Result / Misclick Screen: </label>
+                <input type="color" id="color_blue" value="#0096FF">
+            </div>
+            
+            <!-- <div id="reaction_time_tester_page_start_screen_decoy_gamemode_container">
+                <label for="reaction_time_tester_page_decoy_gamemode">Use decoys (doesn't work)</label>
+                <input type="checkbox" id="reaction_time_tester_page_decoy_gamemode">
+            </div> -->
+
             <button id="reaction_time_tester_page_start_screen_start_game_button">Start Game</button>
         </div>
 
