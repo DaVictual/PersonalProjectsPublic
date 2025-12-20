@@ -10,3 +10,15 @@
     user-select: none;
     font-size: 70px;
 }
+
+#reaction_time_tester_page_exit_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    user-select: none;
+}
+
+#reaction_time_tester_page_exit_button:active{
+    transform: scale(0.92);
+    filter: brightness(0.9);
+}
