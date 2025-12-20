@@ -1,0 +1,12 @@
+#reaction_time_trainer_page{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reaction_time_trainer_page_tmp_message{
+    user-select: none;
+    font-size: 70px;
+}

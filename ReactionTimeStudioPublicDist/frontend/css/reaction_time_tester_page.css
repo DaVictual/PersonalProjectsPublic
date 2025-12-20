@@ -1,0 +1,41 @@
+#reaction_time_tester_page{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#reaction_time_tester_page_start_screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#reaction_time_tester_page_start_screen_instructions{
+    user-select: none;
+    font-size: 30px;
+}
+
+#reaction_time_tester_page_start_screen_start_game_button{
+    user-select: none;
+}
+
+#reaction_time_tester_page_exit_button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    user-select: none;
+}
+
+#reaction_time_tester_page_exit_button:active{
+    transform: scale(0.92);
+    filter: brightness(0.9);
+}
+
+#reaction_time_tester_page_output{
+    user-select: none;
+}
