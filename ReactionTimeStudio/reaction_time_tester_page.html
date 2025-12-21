@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DBKHJQ8986"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-DBKHJQ8986');
+        </script>
+
         <title>Reaction Time Tester</title>
-        <link rel="stylesheet" href="reaction_time_tester_page.css"></link>
+        <link rel="stylesheet" href="../css/reaction_time_tester_page.css"></link>
     </head>
     <body id="reaction_time_tester_page">
         <a href="main_page.html">
@@ -32,10 +42,10 @@
                 <input type="color" id="color_blue" value="#0096FF">
             </div>
             
-            <!-- <div id="reaction_time_tester_page_start_screen_decoy_gamemode_container">
+            <div id="reaction_time_tester_page_start_screen_decoy_gamemode_container">
                 <label for="reaction_time_tester_page_decoy_gamemode">Use decoys (doesn't work)</label>
                 <input type="checkbox" id="reaction_time_tester_page_decoy_gamemode">
-            </div> -->
+            </div>
 
             <button id="reaction_time_tester_page_start_screen_start_game_button">Start Game</button>
         </div>
@@ -44,6 +54,6 @@
             <p id="reaction_time_tester_page_output"></p>
         </div>
 
-        <script type="module" src="reaction_time_tester_page.js"></script>
+        <script type="module" src="../../compiled_ts/reaction_time_tester_page.js"></script>
     </body>
 </html>
