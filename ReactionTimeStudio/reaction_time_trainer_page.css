@@ -16,6 +16,9 @@
     top: 20px;
     right: 20px;
     user-select: none;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
 }
 
 #reaction_time_tester_page_exit_button:active{
