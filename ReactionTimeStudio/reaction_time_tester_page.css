@@ -56,6 +56,10 @@
     align-items: center;
     gap: 10px;
     font-size: 17px;
+
+    & input{
+        width: 75px;
+    }
 }
 
 #reaction_time_tester_page_start_screen_min_max_delay{

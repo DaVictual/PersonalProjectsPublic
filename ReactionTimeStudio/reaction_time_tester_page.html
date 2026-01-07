@@ -11,6 +11,8 @@
             gtag('config', 'G-DBKHJQ8986');
         </script>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Reaction Time Tester</title>
         <link rel="stylesheet" href="reaction_time_tester_page.css"></link>
     </head>
@@ -20,11 +22,13 @@
         </a>
 
         <div id="reaction_time_tester_page_start_screen">
+            <!--Waiting Screen-->
             <div id="reaction_time_tester_page_start_screen_color_picker_red">
                 <label for="color_red">Waiting Color: </label>
                 <input type="color" id="color_red" value="#FF0000">
             </div>
 
+            <!--Delay Inputs-->
             <div id="reaction_time_tester_page_start_screen_min_max_delay">
                 <label for="min_delay">Min delay in seconds: </label>
                 <input type="number" id="min_delay" value="2" min="0.1" max="10" step="0.1"><br><br>
@@ -32,16 +36,19 @@
                 <input type="number"id="max_delay" value="4" min="0.5" max="20" step="0.1">
             </div>
 
+            <!--Clicking Screen-->
             <div id="reaction_time_tester_page_start_screen_color_picker_green">
                 <label for="color_green">Clicking Color: </label>
                 <input type="color" id="color_green" value="#1AFF1A">
             </div>
 
+            <!--Result Screen-->
             <div id="reaction_time_tester_page_start_screen_color_picker_blue">
                 <label for="color_blue">Result / Misclick Screen: </label>
                 <input type="color" id="color_blue" value="#0096FF">
             </div>
 
+            <!--Biological Info-->
             <div id="reaction_time_tester_page_start_screen_user_biological_info">
                 <div id="reaction_time_tester_page_start_screen_user_age">
                     <label for="user_age">Enter age: </label>
