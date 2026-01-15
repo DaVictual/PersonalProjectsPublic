@@ -16,6 +16,7 @@
 #main_page_welcome{
     font-size: 40px;
     margin: 0px;
+    user-select: none;
 }
 
 #reaction_time_tester_page_button{
