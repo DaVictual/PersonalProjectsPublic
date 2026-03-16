@@ -1,4 +1,4 @@
-#reaction_time_tester_page{
+#rt_tester_page{
     margin: 0;
     height: 100vh;
     display: flex;
@@ -7,7 +7,7 @@
     position: relative;
 }
 
-#reaction_time_tester_page_start_screen{
+#start_screen_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
     gap: 20px;
 }
 
-#reaction_time_tester_page_start_screen_color_picker_red{
+.waiting_screen_container{
     user-select: none;
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@
     font-weight: bold;
 }
 
-#reaction_time_tester_page_start_screen_color_picker_green{
+.accepted_screen_container{
     user-select: none;
     display: flex;
     flex-direction: row;
@@ -37,7 +37,7 @@
     font-weight: bold;
 }
 
-#reaction_time_tester_page_start_screen_color_picker_blue{
+.result_screen_container{
     user-select: none;
     display: flex;
     flex-direction: row;
@@ -48,7 +48,7 @@
     font-weight: bold;
 }
 
-#reaction_time_tester_page_start_screen_user_biological_info{
+.user_biological_info_container{
     user-select: none;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@
     }
 }
 
-#reaction_time_tester_page_start_screen_min_max_delay{
+.min_max_delay_container{
     font-size: 17px;
     user-select: none;
 }
@@ -79,7 +79,7 @@
     user-select: none;
 }
 
-#reaction_time_tester_page_exit_button{
+#exit_to_main_page_button{
     position: absolute;
     top: 20px;
     right: 20px;
@@ -89,11 +89,43 @@
     font-size: 30px;
 }
 
-#reaction_time_tester_page_exit_button:active{
+#exit_to_main_page_button:active{
     transform: scale(0.92);
     filter: brightness(0.9);
 }
 
 #reaction_time_tester_page_output{
     user-select: none;
+    margin: 0px;
 }
+
+#reaction_time_tester_page_go_no_go_checkbox_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reaction_time_tester_page_go_no_go_checkbox{
+    appearance: none;
+    border: 1px solid;
+    width: 25px;
+    height: 25px;
+    position: relative;
+
+    &:checked::before{
+        content: '';
+        position: absolute;
+        inset: 2px;
+        background-color: #78f76d;
+    }
+}
+
+/* #reaction_time_tester_page_go_no_go_checkbox:checked{
+    inset: 2px;
+    background-color: black;
+} */
+
+#reaction_time_tester_page_go_no_go_checkbox_label{
+    font-size: 17px;
+}
+
