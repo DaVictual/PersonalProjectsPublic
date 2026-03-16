@@ -29,7 +29,7 @@
 .settings_container{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 #results_output{
@@ -38,9 +38,10 @@
 }
 
 #rt_threshold_label{
-    font-size: 30px;
+    font-size: 22px;
     user-select: none;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 #rt_threshold_input{
@@ -55,4 +56,22 @@
     user-select: none;
     margin: 0 auto;
     user-select: none;
+}
+
+.waiting_screen_container{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.accepted_screen_container{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.result_screen_container{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
 }
